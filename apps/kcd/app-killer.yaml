@@ -2,7 +2,7 @@ apiVersion: chaos-mesh.org/v1alpha1
 kind: Schedule
 metadata:
   name: delete-hello-kcd2025-deployment
-  namespace: hello-kcd2025
+  namespace: chaos-mesh
 spec:
   schedule: "@every 1m"
   type: KubernetesChaos
