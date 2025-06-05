@@ -16,6 +16,7 @@ spec:
       selfHeal: true
     syncOptions:
       - CreateNamespace=true
+      - ServerSideApply=true
   source:
     repoURL: https://charts.chaos-mesh.org
     chart: chaos-mesh
